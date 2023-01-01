@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
+  background-color: aquamarine;
+}
+.main {
+  display: flex;
+  flex-flow: column;
+  width: 85%;
+}
+.menu {
+  width: 15%;
+  background-color: rgba(119, 121, 142, 0.948);
+  padding: 10px 20px 0px;
+}
+.menu li {
+  list-style: none;
+}
+.menu li a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  padding: 8px;
+}
+.menu li a:hover {
+  color: rgb(27, 113, 242);
+}
+.header {
+  background-color: rgb(5, 108, 108);
+  min-height: 150px;
+}
+.header img {
+  width: 850px;
+  height: 250px;
+}
+.content {
+  background-color: white;
+  min-height: 300px;
+  padding: 20px;
+}
+.footer {
+  background-color: rgb(100, 121, 242);
+  min-height: 150px;
+}
+
+#header-index {
+  width: 100%;
+}
+
+#header-sobre {
+  width: 100%;
+}
+#horario {
+  width: 100%;
+}
+#banner-contato {
+  width: 100%;
+}
+table {
+  border: 1px solid;
+  width: 60%;
+}
+table thead th {
+  background-color: black;
+  color: white;
+}
+table tbody tr td {
+  border: 1px solid black;
+}
+.formulario {
+  display: inline-block;
+  text-align: right;
+}
+input {
+  display: inline-block;
+  width: 235px;
+}
+.links p a {
+    color: white;
+    text-decoration: none;
+    text-align: justify;
+    padding-left: 15px;
+}
+.links p a:hover{
+    color: rgba(58, 239, 76, 0.944);
+}
+#direitos {
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+}
